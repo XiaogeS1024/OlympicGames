@@ -7,9 +7,9 @@ import com.team.olympics.game.gender.Gender;
  * @description the ping-pong abstract class
  * @date 2021/10/15
  */
-public abstract class PingPong {
+public abstract class PingPongGame {
     private Gender gender;
-    public PingPong(Gender gender)
+    public PingPongGame(Gender gender)
     {
         this.gender = gender;
     }

@@ -6,7 +6,7 @@ import com.team.olympics.game.gender.Gender;
  * @description the ping-pong team game
  * @date 2021/10/15
  */
-public class PingPongTeam extends PingPong{
+public class PingPongTeam extends PingPongGame {
     public PingPongTeam(Gender gender) {
         super(gender);
     }

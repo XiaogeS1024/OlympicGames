@@ -6,7 +6,7 @@ import com.team.olympics.game.gender.Gender;
  * @description the ping-pong dual game
  * @date 2021/10/15
  */
-public class PingPongDual extends PingPong{
+public class PingPongDual extends PingPongGame {
     public PingPongDual(Gender gender) {
         super(gender);
     }
