@@ -2,7 +2,11 @@ package com.team.olympics.builder;
 
 import com.team.olympics.ground.GameGround;
 import com.team.olympics.ground.SoccerCourt;
-
+/**
+ * @author Charles Gao
+ * @description Soccer court ground builder
+ * @date 2021/10/16
+ */
 public class SoccerCourtBuilder implements Builder {
     private GameGround ground = new SoccerCourt();
     @Override

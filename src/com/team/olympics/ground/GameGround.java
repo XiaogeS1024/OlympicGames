@@ -1,5 +1,10 @@
 package com.team.olympics.ground;
 
+/**
+ * @author Charles Gao
+ * @description the base class for all game grounds
+ * @date 2021/10/16
+ */
 public abstract class GameGround {
     private String type;
     private String location;

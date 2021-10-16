@@ -2,6 +2,11 @@ package com.team.olympics.builder;
 
 import com.team.olympics.ground.FieldTrace;
 import com.team.olympics.ground.GameGround;
+/**
+ * @author Charles Gao
+ * @description Field trace ground builder
+ * @date 2021/10/16
+ */
 
 public class FieldTraceBuilder implements Builder{
     private GameGround ground = new FieldTrace();

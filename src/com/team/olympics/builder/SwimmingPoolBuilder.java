@@ -2,7 +2,11 @@ package com.team.olympics.builder;
 
 import com.team.olympics.ground.GameGround;
 import com.team.olympics.ground.SwimmingPool;
-
+/**
+ * @author Charles Gao
+ * @description Swimming pool ground builder
+ * @date 2021/10/16
+ */
 public class SwimmingPoolBuilder implements Builder{
     private GameGround ground = new SwimmingPool();
     @Override

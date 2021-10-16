@@ -6,6 +6,11 @@ import com.team.olympics.ground.GameGround;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author Charles Gao
+ * @description the test class for bridge pattern
+ * @date 2021/10/15
+ */
 public class BuilderTest {
     public static void builderTest()
     {

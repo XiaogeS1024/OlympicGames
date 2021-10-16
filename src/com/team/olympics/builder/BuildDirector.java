@@ -1,7 +1,10 @@
 package com.team.olympics.builder;
 
-
-
+/**
+ * @author Charles Gao
+ * @description Builders' director
+ * @date 2021/10/16
+ */
 public class BuildDirector {
     private Builder builder;
     public BuildDirector(Builder builder)
